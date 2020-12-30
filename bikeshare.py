@@ -25,7 +25,7 @@ def get_filters():
     # get user input for month (all, january, february, ... , june)
     month = input("Input for month (all, january, february, ... , june):").lower()
     while(month.lower() not in ['all','january', 'february', 'march', 'april', 'may', 'june']):
-        print(" ******* WRONG Month *******")
+        print(" ******* Wrong Month *******")
         month = input("Input for month (all, january, february, ... , june):").lower()
 
     # get user input for day of week (all, monday, tuesday, ... sunday)
